@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  	<meta author="Zhirrr">
+  	<meta description="Simple Game With jQuery And Canvas">
+  <title>Pixel Game Runner</title>
+  <link rel="stylesheet" href="runner.css" type="text/css" media="screen">
+  <script type="text/javascript" src="jquery.2.1.1.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="sound sound-off"></div>
+    <div id="menu">
+      <div id="progress">
+        <div id="percent">Loading Game: <span id="p"></span></div>
+        <progress id="progress-bar" value="0"></progress>
+      </div>
+      <div id="main">
+        <img src="https://i.imgur.com/DLlbPB9.png" border="0">
+        <ul>
+          <li><a href="javascript:void(0)" class="button play">Mulai Game</a></li>
+        </ul>
+      </div>
+    </div>
+    <canvas id="canvas" width="800" height="480">
+      <p>Yahhh, Browser Kamu Gak Bisa Mainin Game Ini :( </p>
+      <p>Mohon Untuk Memperbarui Browser Anda Untuk Bermain Game Ini</p>
+    </canvas>
+    <div id="game-over">
+      <h2>Total Skor : <span id="score"></span></h2>
+      <a href="javascript:void(0)" class="button restart">Coba Lagi Gak Nih ?</a>
+    </div>
+  </div>
+  <script type="text/javascript" src="runner.js"></script>
+</body>
+</html>
