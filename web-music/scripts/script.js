@@ -24,6 +24,11 @@ new Vue({
           source: "https://raw.githubusercontent.com/milikmu/web-music.github.io/master/mp3/2.mp3",
           url: "https://www.youtube.com/watch?v=H5bZGVJ8G68",
           favorited: false
+        },
+        {
+          name: "Dj kau relakan engkau pergi 30 detik",
+          source: "https://raw.githubusercontent.com/milikmu/web-music.github.io/master/mp3/3.mp3",
+          favorited: false
         }
       ],
       currentTrack: null,
