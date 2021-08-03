@@ -27,7 +27,7 @@ new Vue({
         },
         {
           name: "Dj kau relakan engkau pergi 30 detik",
-          source: "https://raw.githubusercontent.com/z-zxq/web-music/main/mp3/3.mp3",
+          source: "https://raw.githubusercontent.com/Z-zxQ/z-zxq.github.io/main/web-music/mp3/3.mp3",
           favorited: false
         }
       ],
