@@ -21,7 +21,7 @@ new Vue({
           name: "Dj Tahun Baru × Tiban Tiban Slow",
           artist: "rahmat tahalu",
           cover: "https://raw.githubusercontent.com/milikmu/web-music.github.io/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/milikmu/web-music.github.io/master/mp3/2.mp3",
+          source: "https://raw.githubusercontent.com/z-zxq/web-music.github.io/master/mp3/2.mp3",
           url: "https://www.youtube.com/watch?v=H5bZGVJ8G68",
           favorited: false
         },
