@@ -1,0 +1,30 @@
+{
+    "name": "ayesh/instagram-download",
+    "description": "Instagram image and video downloader with URL validation and cURL integration.",
+    "type": "library",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.2",
+        "phpstan/phpstan": "^0.12.18"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayesh Karunaratne",
+            "email": "ayesh@ayesh.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ayesh\\InstagramDownload\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ayesh\\InstagramDownload\\Tests\\": "tests"
+        }
+    }
+}
